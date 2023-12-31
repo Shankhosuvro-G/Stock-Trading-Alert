@@ -5,10 +5,10 @@ COMPANY_NAME = "TATA CONSULTANCY S"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-STOCK_API_KEY="2COZNLIA16M387KU"
-NEWS_API="989533d3fbd94f4ba2b9f183faf34c8a"
-TWILIO_SID="AC7c5f427ad7b452408ee8628fd5273f6c"
-TWILIO_AUTH_TOKEN="1632778e8de3684d82a7a362f8c4389c"
+STOCK_API_KEY="your api key"
+NEWS_API="your api key"
+TWILIO_SID="your sid"
+TWILIO_AUTH_TOKEN="your auth token"
    
 stock_params={
     "function":"TIME_SERIES_DAILY",
@@ -52,8 +52,8 @@ if diff_percent>0.1:
     for article in formatted_articles:
         message=client.messages.create(
             body=article,
-            from_=+12059274647,
-            to=+919831976758
+            from_="Virtual number",
+            to="your number"
 
 
         )
